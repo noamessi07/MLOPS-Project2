@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: MLOPS-PROJECT2
+Version: 0.1
+Author: Koami
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: setuptools
+Requires-Dist: google-cloud-storage
+Requires-Dist: pyyaml
+Requires-Dist: tensorflow
+Requires-Dist: joblib
+Requires-Dist: tensorflow
+Requires-Dist: comet_ml
+Requires-Dist: dvc
+Dynamic: author
+Dynamic: requires-dist
