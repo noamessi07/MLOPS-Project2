@@ -8,3 +8,5 @@ joblib
 tensorflow
 comet_ml
 dvc
+dvc-gs
+flask

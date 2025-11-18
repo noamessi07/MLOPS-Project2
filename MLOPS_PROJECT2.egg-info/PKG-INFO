@@ -12,5 +12,7 @@ Requires-Dist: joblib
 Requires-Dist: tensorflow
 Requires-Dist: comet_ml
 Requires-Dist: dvc
+Requires-Dist: dvc-gs
+Requires-Dist: flask
 Dynamic: author
 Dynamic: requires-dist

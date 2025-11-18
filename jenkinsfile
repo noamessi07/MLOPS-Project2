@@ -1,0 +1,14 @@
+pipeline {
+    agent any
+
+    stages {
+        stage("Cloning from GitHUb...") {
+            steps {
+                script {
+                    echo 'Cloning from GitHUb...'
+                    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/noamessi07/MLOPS-Project2.git']])
+                }
+            }
+        }
+    }
+}
