@@ -69,7 +69,7 @@ pipeline {
 
         stage('Deploying to Kubernetes'){
             steps{
-                withCredentials([file(credentialsId:'gcp-key' , variable: 'GOOGLE_APPLICATION_CREDENTIALS' )]){
+                withCredentials([file(credentialsId:'gcp-key1' , variable: 'GOOGLE_APPLICATION_CREDENTIALS' )]){
                     script{
                         echo 'Deploying to Kubernetes'
                         sh '''
